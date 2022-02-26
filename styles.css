@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.headertable {
+    background-color: rgb(17, 94, 97);
+    padding: 35px;
+    color: white;
+}
+
+.headertable a {
+    background-color: rgb(17, 94, 97);
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+th {
+    background-color: orange;
+    color: white;
+}
+
+.headertable a:hover {
+    background-color: rgb(12, 122, 126);
+}
+
+.smartbutton {
+    border-radius: 3px;
+    border: 1px pink solid;
+    padding: 5px;
+}
+
+.smartbutton:hover {
+    border: 2px red solid;
+}
+
+.menubutton {
+    border: 1px red solid;
+    padding: 10px;
+    width: 80px;
+    background-color: cadetblue;
+}
+
+.menubutton:hover {
+    border: 1px purple solid;
+    cursor: pointer;
+}
+
+.icondiv {
+    border: 1px solid pink;
+    margin: 5px;
+    box-shadow: 1px 1px cyan;
+    width: 100px;
+}
+
+.icondiv:hover {
+    box-shadow: 3px 3px cyan;
+}
+
+.datatable {
+    background-color: cyan;
+    border-collapse: collapse;
+    border: 1px solid pink;
+}
+
+.datatable th {
+    background-color: pink;
+    border: 1px solid white;
+}
+
+.datatable td {
+    border: 1px solid pink;
+}
+
+.datatable tr {
+    border: 1px solid pink;
+}
+
+.datatable tr:hover {
+    background-color: violet;
+}
+
+.error {
+    background-color: red;
+    border: 1px solid pink;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+}
+
+.success {
+    background-color: green;
+    border: 1px solid pink;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+}
+
+.buttonstyle {
+    border: 1px solid orange;
+}
+
+.buttonstyle:hover {
+    border: 1px solid blue;
+}
+
+.loginform {
+    margin-top: 15%;
+    margin-left: 40%;
+    border: 1px solid pink;
+    padding: 8px;
+    width: 20%;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.loginform input {
+    margin-top: 6px;
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+@media only screen and (max-width:600px) {
+    .menubutton {
+        visibility: hidden;
+    }
+    .loginform {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
